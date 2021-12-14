@@ -6,7 +6,7 @@
 /*   By: dpunishe <dpunishe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 15:10:15 by dpunishe          #+#    #+#             */
-/*   Updated: 2021/12/05 19:00:44 by dpunishe         ###   ########.fr       */
+/*   Updated: 2021/12/14 11:34:30 by dpunishe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,7 +109,6 @@ int	main(int argc, char **argv)
 	int		i;
 
 	i = 0;
-	lol = ft_calloc(501, sizeof(char *));
 	if (argc == 1)
 		exit(FALSE);
 	else
